@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     background: #081b29; 
+    color: antiquewhite;
+}
+
+.header {
+     position:absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 100; */
+}
+
+.logo {
+    font-size: 25px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: medium;
+    color: beige;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+#rom:hover{
+    color: #00abf0;
+
+}
+#rom1:hover{
+    color: #00abf0;
+
+}
+#rom2:hover{
+    color: #00abf0;
+
+}
+#rom3:hover{
+    color: #00abf0;
+
+}
+#rom4:hover{
+    color: #00abf0;
+}
+.Home {
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+    /* border:5px solid black; */
+    /* border-width: 10px; */
+    width: 100%;
+
+
+}
+
+
+.home-content {
+    /* position: ; */
+
+    max-width: 600px;
+}
+
+.home-content h1 {
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(32, 161, 161);
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    font-weight: bold;
+    
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    gap:20px ;
+
+
+}
+
+.btn-box a {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* width: ;
+    height: 100%; */
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #d0d4d8;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* z-index: -1; */
+    overflow: hidden;
+    padding: 5px 10px ;
+
+}
+#hero{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.icon1{
+    display: flex;
+    position:relative;
+    gap: 20px;
+    bottom: 20px;
+
+    
+}
+#insta {
+    border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+
+#linkin {
+    border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+#facebook {
+ border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+#twitter {
+    border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+.icons{
+    justify-content: center; 
+    align-items:center;
+    background-position: center;   
+     display: flex; 
+} 
