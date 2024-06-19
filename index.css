@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #081b29;
+    color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    size: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+h2 {
+    font-size: larger;
+}
+
+.logo img {
+    /* font-size: 25px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: 600; */
+    border: 2px solid #081b29;
+    border-radius: 25%;
+    width: 150px;
+    height: 100px;
+
+}
+
+.navbar a {
+    font-size: medium;
+    color: beige;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+#rom:hover {
+    background-color: #00abf0;
+    /* color: #00abf0; */
+    border: 2px solid;
+    box-shadow: 2px 2px 6px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+#rom1:hover {
+    background-color: #00abf0;
+    border: 2px solid;
+    box-shadow: 2px 2px 6px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+#rom2:hover {
+    background-color: #00abf0;
+    border: 2px solid;
+    box-shadow: 2px 2px 6px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+#rom3:hover {
+    background-color: #00abf0;
+    border: 2px solid;
+    box-shadow: 2px 2px 6px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+#rom4:hover {
+   background-color:  #00abf0;
+    border: 2px solid;
+    box-shadow: 2px 2px 6px;
+    border-radius: 20%;
+    padding: 10px;
+}
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#rom5{
+    font-style:italic;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 2px solid rgb(84, 103, 109);
+    /* background-color:rgb(81, 95, 100); */
+    color:whitesmoke;
+    padding: 8px;
+    border-radius: 45%;
+   box-shadow: 2px 2px 4px;
+}
+
+#rom6{
+    font-style:italic;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 2px solid rgb(84, 103, 109);
+    background-color:rgb(81, 95, 100);
+    color:whitesmoke;
+    padding: 8px;
+    border-radius: 45%;
+   box-shadow: 2px 2px 4px;
+}
+.Home {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+
+
+}
+
+.home-content {
+    width: fill;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+    padding-left: 10%;
+    flex-direction: column;
+}
+
+
+
+.home-content h1 {
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(32, 161, 161);
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    font-weight: bold;
+
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    gap: 20px;
+
+
+}
+
+.btn-box a {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: ;
+    height: 100%; */
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #d0d4d8;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* z-index: -1; */
+    overflow: hidden;
+    padding: 5px 10px;
+
+}
+
+#hero {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+
+}
+
+.icon1 {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    bottom: 20px;
+
+
+}
+
+#insta {
+    border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+
+#linkin {
+    border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+
+#facebook {
+    border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+
+#twitter {
+    border: 2px solid rgb(46, 225, 231);
+    border-radius: 50%;
+}
+
+.icons {
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    display: flex;
+}
+
+
+.hamburger {
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 30px;
+    background: #000;
+
+}
+
+.weblogo {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+@media screen and (max-width:1920px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .Home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header {
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width:920px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weblogo {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header {
+        position: relative;
+        top: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #hero {
+        height: fit-content;
+    }
+
+}
+
+@media screen and (max-width:390px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+
+    .weblogo {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        position: relative;
+        top: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #hero {
+        height: fit-content;
+    }
+
+}

@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="weblogo">
+            <a href="" class="logo"><img src="images/my pic.jpeg" alt="pic" width="80px" height="80px">
+                <h1>polishetti's</h1>
+            </a>
+            <div class="hamburger" onclick="hamclcked()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <a id='rom' href="#">Home</a>
+            <a id='rom1' href="#">About</a>
+            <a id='rom2' href="#">Services</a>
+            <a id='rom3' href="#">Contact</a>
+            <a href="#" id="rom4">More</a>
+        </nav>
+        <div class="but">
+            <a href="#"  id="rom5"> Log in</a>
+            <a href="#" id="rom6">Sign Up</a>
+        </div>
+    </header>
+    <section id='hero'>
+        <div class="Home">
+            <div class="home-content">
+                <h1>Hi,I'm polishetti karthik</h1>
+                <h3>Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias saepe voluptates accusamus similique
+                    cupiditate provident dolore!
+                    Similique sint voluptate esse voluptas eius suscipit, veniam,
+                    officiis error, atque ducimus eos aliquid.</p>
+                <div class="btn-box">
+                    <a href="#">Hire Me</a>
+                    <a href="#">lets talk</a>
+                </div>
+            </div>
+            <div id="roc">
+                <img src="./images/bg image.png" alt="hero" width="600px" height="600px">
+            </div>
+        </div>
+        <div class="icon1">
+            <a href="https://www.instagram.com/accounts/login/?hl=en">
+                <img id="insta" src="./images/insta icon.png" alt="instagram" width="50px" height="50px">
+            </a>
+            <a href="https://www.linkedin.com/feed/">
+                <img id="linkin" src="./images/linkin icon.jpg" alt="linkin" width="50px" height="50px">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img id="facebook" src="./images/facebook icon.png" alt="facebook" width="50px" height="50px">
+            </a>
+            <a
+                href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D">
+                <img id="twitter" src="./images/twitter icon.png" alt="twitter" width="50px" height="50px">
+            </a>
+        </div>
+    </section>
+
+    <script>
+        const hamclcked = () => {
+
+            const navbar = document.querySelector(".navbar");
+            if (navbar.style.display === "none") {
+                navbar.style.display = "flex";
+            } else {
+                navbar.style.display = "none";
+            }
+
+            // document.querySelector(".navbar").style.display = "none" ? document.querySelector(".navbar").style.display = "flex" : document.querySelector(".navbar").style.display = "none"
+
+
+        }
+
+
+    </script>
+</body>
+
+</html>
